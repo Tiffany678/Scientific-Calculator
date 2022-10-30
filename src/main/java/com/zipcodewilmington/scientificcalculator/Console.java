@@ -3,7 +3,7 @@ package com.zipcodewilmington.scientificcalculator;
 import java.util.Scanner;
 
 /**
- * Created by leon on 2/9/18.
+ * Created by Yingjie Yang 2022
  */
 public class Console {
 
@@ -29,4 +29,9 @@ public class Console {
     public static Double getDoubleInput(String prompt) {
         return null;
     }
+
+    public static double addition(double number1,double number2){ return number1 + number2; }
+    public static double substraction(double number1,double number2){ return number1 - number2; }
+    public static double mutiplication(double number1,double number2){ return number1 * number2; }
+    public static double division(double number1,double number2){ return number1 / number2; }
 }
